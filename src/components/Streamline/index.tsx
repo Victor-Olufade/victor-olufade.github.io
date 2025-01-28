@@ -20,7 +20,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-[#581C87BF]"></div>
 
         {/* Text Content */}
-        <div className="relative z-10  text-white flex flex-col  items-end">
+        <div className="hidden relative z-10  text-white md:flex flex-col  items-end">
           <h2 className="text-[56px] font-extrabold leading-[61.6px] hidden lg:block">
             Streamlined <br /> Staffing, Seamless <br /> Results
           </h2>
@@ -28,8 +28,25 @@ const Index = () => {
             Streamlined Staffing, Seamless Results
           </h2>
           <p className="mt-2 text-lg">
-            At Zenix, we simplify complex staffing challenges with <br /> customized
-            solutions, ensuring your team operates efficiently <br /> and effectively.
+            At Zenix, we simplify complex staffing challenges with <br />{" "}
+            customized solutions, ensuring your team operates efficiently <br />{" "}
+            and effectively.
+          </p>
+        </div>
+        {/* mobile view texts */}
+        <div className="relative z-10  text-white flex flex-col  items-start">
+          <span className="text-[40px] text-left font-extrabold leading-[44px]">
+            Problems come
+          </span>
+          <span className="text-[40px] text-left font-extrabold leading-[44px]">
+            and get solved
+          </span>
+          <span className="text-[40px] text-left font-extrabold leading-[44px]">
+            with ease
+          </span>
+          <p className="text-lg font-[400] text-[16px] mt-5">
+            At Zenix, we simplify complex staffing challenges with customized
+            solutions, ensuring your team operates efficiently and effectively.
           </p>
         </div>
       </div>

@@ -14,7 +14,7 @@ const Index = () => {
           include recruitment, screening, training, <br /> and payroll management.
         </p>
       </div>
-      <img src={services} alt="" />
+      <img src={services} alt="" className='mt-10'/>
     </div>
   );
 };
