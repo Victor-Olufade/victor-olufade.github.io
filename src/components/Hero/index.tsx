@@ -1,6 +1,6 @@
 import phone from "../../assets/phone.svg";
 import kilimanjaro from "../../assets/kilimanjaro.svg";
-import heroImage from "../../assets/heroImage.svg";
+import heroImage from "../../assets/zenix-hero-image.png";
 import sparks from "../../assets/sparks.svg";
 
 const Index = () => {
