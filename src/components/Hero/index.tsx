@@ -2,6 +2,7 @@ import phone from "../../assets/phone.svg";
 import kilimanjaro from "../../assets/kilimanjaro.svg";
 import heroImage from "../../assets/zenix-hero-image.png";
 import sparks from "../../assets/sparks.svg";
+import { sendEmail } from "../../utils";
 
 const Index = () => {
   return (
@@ -24,11 +25,13 @@ const Index = () => {
           meet the evolving needs of our clients.
         </p>
         <div className="flex gap-4">
-          <button className="bg-[#2563EB] border-2 border-[#2563EB] p-3 text-white rounded font-normal text-[16px]">
+          <button className="bg-[#2563EB] border-2 border-[#2563EB] p-3 text-white rounded font-normal text-[16px]" onClick={()=>sendEmail()}>
             Email Us
           </button>
           <div className="flex gap-2 items-center">
-            <img src={phone} alt="" />
+            <a href="tel:09025726773">
+              <img src={phone} alt="" />
+            </a>
             <p className="text-[#2563EB] text-base font-medium">
               + 234 902 572 6773
             </p>
