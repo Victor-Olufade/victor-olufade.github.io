@@ -9,7 +9,7 @@ const Index = () => {
         </p>
         <p className="text-white text-center font-normal text-lg leading-[28.8px]">
           Contact us today to learn more about our staffing solutions and how
-          wean support your business needs.
+          we can support your business needs.
         </p>
         <button
           className="bg-[#2563EB] border-2 border-[#2563EB] w-[40%] lg:w-auto  text-white rounded font-normal text-[16px] p-4"
