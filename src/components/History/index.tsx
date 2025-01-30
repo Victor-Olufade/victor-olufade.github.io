@@ -1,7 +1,7 @@
 import pic1 from "../../assets/pic1.svg";
 import pic2 from "../../assets/pic2.svg";
 import pic3 from "../../assets/pic3.svg";
-import sparks from "../../assets/sparks.svg";
+// import sparks from "../../assets/sparks.svg";
 
 const Index = () => {
   return (
@@ -28,7 +28,7 @@ const Index = () => {
         </p>
       </div>
 
-      <div className="w-full flex flex-row items-center justify-between">
+      <div className="w-full lg:w-[50%] flex flex-row items-center justify-between">
         <div className="w-[32%] md:w-[30%] h-[204px]">
           <img src={pic1} alt="" className="w-full h-hull object-cover" />
         </div>
@@ -42,11 +42,11 @@ const Index = () => {
         {/* <img src={pic1} alt="" className="w-[32%] md:w-[30%] h-[204px]"/>
         <img src={pic2} alt="" className="w-[32%] md:w-[30%] h-[204px]"/>
         <img src={pic3} alt="" className="w-[32%] md:w-[30%] h-[204px]"/> */}
-        <img
+        {/* <img
           src={sparks}
           alt=""
           className="hidden md:flex lg:-left-[100px] -left-[29px] -bottom-[800px] lg:-bottom-[300px] z-0"
-        />
+        /> */}
       </div>
     </div>
   );
